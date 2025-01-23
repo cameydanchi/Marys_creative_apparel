@@ -1,53 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advanced Navbar</title>
+  <title>Mary's Creative Apparel</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="container">
-        <!-- Logo -->
+    <nav class="navbar" id="navbar">
         <div class="logo">
-          <a href="#">Brand<span>Logo</span></a>
+            <img src="images/MCA Fashion Logo (2).png" alt="Logo">
         </div>
-        <!-- Search Bar -->
-        <div class="search-bar">
-          <input type="text" placeholder="Search...">
-          <button>Search</button>
-        </div>
-        <!-- Menu Toggle -->
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <!-- Navigation Links -->
-        <ul class="nav-list">
-          <li><a href="#">Home</a></li>
-          <li class="dropdown">
-            <a href="#">Services</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">SEO</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#">Products</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">eCommerce</a></li>
-              <li><a href="#">SaaS</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </nav>
-  </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+          <p> Quality Products available to you</p>
+        </div>
+    </section>
+
+    
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-text">
+                    <h2>ABOUT MARY'S CREATIVE APPEAL </h2>
+                    <p>At <strong>MARY'S CREATIVE APPEAL </strong>, we believe in the power of sustainability and creativity. Our mission is to transform the world of fashion by upcycling everyday materials into stylish, eco-friendly accessories. Using recycled rubber water sachets, we create one-of-a-kind hats, bags, and accessories that help reduce waste while making a statement.</p>
+                    
+                    <h3>Our Craft</h3>
+                    <p>Each piece we create is handmade with love and care, using locally sourced recycled materials that would otherwise end up in landfills. By reimagining waste as fashion, we offer you stylish and durable products that are good for the planet and perfect for your wardrobe.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>Our vision is to lead the fashion industry toward a more sustainable future. We aim to prove that fashion doesn't have to come at the expense of the environment. At MCA Fashion, we’re not just creating accessories—we’re creating a movement towards mindful consumption and environmental responsibility.</p>
+                </div>
+            <div class="about-image">
+                <img src="images/GAA (1 of 1)-10.jpg" alt="Fashion Image">
+            </div>
+        </div>
+    </section>
+    
 
   <script src="script.js"></script>
 </body>
