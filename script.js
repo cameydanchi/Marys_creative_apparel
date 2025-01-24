@@ -86,37 +86,3 @@ window.addEventListener('scroll', checkVisibility);
 checkVisibility();
 
 
-// Image Slider Functionality
-let currentIndex = 0;
-const slideItems = document.querySelectorAll('.slide');
-const totalSlidesCount = slideItems.length;
-const previousButton = document.querySelector('.prev-btn');
-const nextButton = document.querySelector('.next-btn');
-const sliderContainer = document.querySelector('.image-slider');
-
-// Function to change the slide based on the index
-function updateSlide(index) {
-    if (index < 0) {
-        currentIndex = totalSlidesCount - 1; // Loop back to the last slide
-    } else if (index >= totalSlidesCount) {
-        currentIndex = 0; // Loop back to the first slide
-    } else {
-        currentIndex = index;
-    }
-    sliderContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
-}
-
-// Event listener for previous button
-previousButton.addEventListener('click', () => {
-    updateSlide(currentIndex - 1);
-});
-
-// Event listener for next button
-nextButton.addEventListener('click', () => {
-    updateSlide(currentIndex + 1);
-});
-
-// Auto-slide functionality (optional)
-setInterval(() => {
-    updateSlide(currentIndex + 1);
-}, 5000); // Change slide every 5 seconds
