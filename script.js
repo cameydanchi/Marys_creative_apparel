@@ -86,3 +86,43 @@ window.addEventListener('scroll', checkVisibility);
 checkVisibility();
 
 
+// Select hamburger menu and nav-links container
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+// Add event listener to the hamburger menu
+hamburger.addEventListener('click', () => {
+    // Toggle the active class on nav-links
+    navLinks.classList.toggle('active');
+
+    // Add animation for hamburger menu (optional)
+    hamburger.classList.toggle('open');
+});
+
+
+;
+
+document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll(".ttt-image-container img");
+  
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+  
+    images.forEach((image) => observer.observe(image));
+  });
+
+  
+  document.querySelectorAll('.price-overlay').forEach((price) => {
+    price.addEventListener('click', () => {
+        price.classList.toggle('clicked');
+    });
+});
+
