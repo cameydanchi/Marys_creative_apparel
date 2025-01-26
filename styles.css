@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Send+Flowers&family=Smooch+Sans:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Send+Flowers&family=Smooch+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Send+Flowers&family=Smooch+Sans:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* General Reset */
 * {
     margin: 0;
@@ -206,9 +208,8 @@
     font-size: 90px;
     /* Reduced font size for smaller screens */
     margin-top: 70px;
-    /* Adjust margin for better spacing */
     font-family: "Barlow Condensed", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     color: gold;
 }
@@ -381,21 +382,30 @@
 
 .about-text h2 {
     font-size: 2.5rem;
-    color: #818a0a;
+    color: #10100f;
     margin-bottom: 20px;
+    font-family: "Barlow Condensed", serif;
+  font-weight:500;
+  font-style: normal;
 }
 
 .about-text p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.6;
     color: #555;
     margin-bottom: 20px;
+    font-family: "Barlow Condensed", serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .about-text h3 {
     font-size: 1.8rem;
-    color: #818a0a;
+    color: #999d7e;
     margin-bottom: 10px;
+    font-family: "Barlow Condensed", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .about-image {
@@ -463,6 +473,8 @@ h2 {
     letter-spacing: 1px;
     transition: transform 0.3s ease;
     text-align: center;
+    font-family: "Barlow Condensed", serif;
+  font-style: normal;
 }
 
 /* Slider Container */
@@ -854,10 +866,13 @@ h2 {
   }
   
   .ttt-header p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #555;
     margin-top: 10px;
     animation: fadeIn 1.5s ease-in-out;
+    font-family: "Barlow Condensed", serif;
+  font-weight: 500;
+  font-style: normal;
   }
   
   /* Columns */
@@ -898,9 +913,12 @@ h2 {
   }
   
   .ttt-column p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #555;
     margin-bottom: 20px;
+    font-family: "Barlow Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
   }
   
   /* Image Container */
@@ -1069,7 +1087,7 @@ h2 {
   
   .owner-name {
     font-size: 1.8rem;
-    color: #009688;
+    color: #161717;
     font-weight: bold;
     margin-bottom: 5px;
   }
